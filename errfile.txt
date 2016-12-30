@@ -1,0 +1,251 @@
+SyntaxError: Unexpected token d
+    at Object.parse (native)
+    at parse (/home/bluespaceapi/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/bluespaceapi/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+SyntaxError: Unexpected token _
+    at Object.parse (native)
+    at parse (/home/bluespaceapi/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/bluespaceapi/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+SyntaxError: Unexpected token b
+    at Object.parse (native)
+    at parse (/home/bluespaceapi/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/bluespaceapi/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:21:34.829Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:21:40.395Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:21:42.000Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:21:48.090Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:21:59.362Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:22:32.889Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:22:39.372Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:22:48.720Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+WriteError({"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: bluespaceapi.detections index: _id_ dup key: { : ObjectId('5770fa75645353f205b2a329') }","op":{"_id":"5770fa75645353f205b2a329","beacon_uuid":"B9407F30F5F8466EAFF925556B57FE6D","beacon_major":"04","beacon_minor":"14","beacon_rssi":"-85","firmware_ver":"1.0.0","OTA_status":"0/0","device_uuid":"81796980eb74338b9c3d0e600fc1cdc089292a61","detection_timestamp":"270616 1503","create_date":"2016-06-27T10:23:38.139Z","__v":0}})
+    at Function.MongoError.create (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:114:22)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/collection.js:620:23
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:473:9
+    at handleCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at resultHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js:420:5)
+    at commandCallback (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/home/bluespaceapi/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+TypeError: Object function model(doc, fields, skipId) {
+    if (!(this instanceof model)) {
+      return new model(doc, fields, skipId);
+    }
+    Model.call(this, doc, fields, skipId);
+  } has no method 'getRegistrationsById'
+    at app.post.detection (/home/bluespaceapi/app.js:49:15)
+    at Layer.handle [as handle_request] (/home/bluespaceapi/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bluespaceapi/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/bluespaceapi/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/bluespaceapi/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bluespaceapi/node_modules/express/lib/router/index.js:277:22
+    at param (/home/bluespaceapi/node_modules/express/lib/router/index.js:349:14)
+    at param (/home/bluespaceapi/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/bluespaceapi/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/bluespaceapi/node_modules/express/lib/router/index.js:271:10)
+    at jsonParser (/home/bluespaceapi/node_modules/body-parser/lib/types/json.js:100:40)
+    at Layer.handle [as handle_request] (/home/bluespaceapi/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/bluespaceapi/node_modules/express/lib/router/index.js:312:13)
+    at /home/bluespaceapi/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/bluespaceapi/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/bluespaceapi/node_modules/express/lib/router/index.js:271:10)
+SyntaxError: Unexpected token }
+    at Object.parse (native)
+    at parse (/home/bluespaceapi/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/bluespaceapi/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/bluespaceapi/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
